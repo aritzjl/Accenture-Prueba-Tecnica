@@ -2,12 +2,15 @@
 
 ## Setup
 
-Para ejecutar este proyecto en local, ejecuta los siguientes pasos (Linux):
+Para ejecutar este proyecto en local, ejecuta los siguientes pasos:
 
-1. Crea un entorno virtual de python: `python3 -m venv venv`
-2. Activa el entorno virtual: `source venv/bin/activate`
+### En Linux
+1. Crea un entorno virtual de python: `python -m venv venv`
+2. Activa el entorno virtual: `venv\Scripts\activate`
 3. Instala las dependencias: `pip install -r requirements.txt`
 4. Ejecuta el servidor: `uvicorn main:app --reload`
+
+5. ###En Windows
 
 Tras realizar los pasos, el servidor debería estar ejecutándose en `http://127.0.0.1:8000` 
 
