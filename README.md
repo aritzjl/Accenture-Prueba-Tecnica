@@ -9,7 +9,7 @@ Para ejecutar este proyecto en local, ejecuta los siguientes pasos (Linux):
 3. Instala las dependencias: `pip install -r requirements.txt`
 4. Ejecuta el servidor: `uvicorn main:app --reload`
 
-Tras realizar los pasos, el servidor debería estar ejecutandose en `http://127.0.0.1:8000` 
+Tras realizar los pasos, el servidor debería estar ejecutándose en `http://127.0.0.1:8000` 
 
 ## Documentación
 
